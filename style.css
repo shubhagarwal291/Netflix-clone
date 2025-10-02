@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-image: url("background_image.png");
+  background-position: center center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.main .box {
+  height: 80vh;
+  width: 100%;
+  /* opacity: 0.38; */
+  position: absolute;
+  top: 0;
+  /* background-color: black; */
+}
+
+nav {
+  max-width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 34px;
+}
+
+.logo,
+.English,
+.sign {
+  width: 150px;
+  height: 50px;
+}
+
+.English {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.sign {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 1200;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  width: 1920px;
+  height: 720px;
+}
+
+.head1 {
+  color: white;
+  font-size: 90px;
+}
+
+.head2 {
+  color: white;
+  font-size: 30px;
+}
+
+.head3 {
+  color: white;
+  font-size: 26px;
+}
+
+.email {
+  width: 100%;
+  height: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.email input {
+  width: 445px;
+  height: 66px;
+  background-color: black;
+  opacity: 0.38;
+  color: white;
+  padding-left: 14px;
+  font-size: 24px;
+
+}
+
+.email button {
+  width: 215px;
+  margin-left: 3px;
+  height: 70px;
+  background-color: rgb(232, 24, 24);
+  color: white;
+  font-size: 24px;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+.line {
+  position: absolute;
+  top: 750px;
+  width: 100%;
+  background-color: red;
+  height: 20px;
+}
+
+.trend {
+  position: absolute;
+  background-color: black;
+  top: 770px;
+  width: 100%;
+  color: white;
+  height: 3100px;
+
+}
+
+.trend .head {
+  margin-top: 64px;
+  font-size: 39px;
+  margin-left: 403px;
+  font-weight: 600;
+}
+
+.series {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 44px;
+  width: 100%;
+  height: 450px;
+}
+
+.series img {
+  width: 220px;
+  margin-left: 25px;
+  height: 308px;
+  transition: transform 0.8s ease;
+}
+
+.series img:hover {
+  transform: scale(1.1);
+}
+
+.series button {
+  margin-top: 78px;
+  width: 34px;
+  height: 150px;
+  margin-left: 10px;
+  background-color: #ffffff48;
+  border: 2px solid black;
+  border-radius: 15px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.8s ease;
+  font-size: 17px;
+}
+
+.series button:hover {
+  transform: border(2px solid white);
+}
+
+.feat .reason {
+  margin-left: 403px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.char {
+  display: flex;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  margin-left: 25px;
+  margin-top: 19px;
+  width: 275px;
+  height: 386px;
+  background-color: rgb(47, 47, 92);
+  border-radius: 22px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span {
+  color: rgb(189, 176, 176);
+}
+
+.box1 img {
+  margin-top: 133px;
+  margin-left: 165px;
+}
+
+.box2 img {
+  margin-top: 100px;
+  margin-left: 165px;
+}
+
+.box3 img {
+  width: 89px;
+  height: 99px;
+  margin-top: 107px;
+  margin-left: 165px;
+}
+
+.box4 img {
+  margin-top: 99px;
+  margin-left: 185px;
+}
+
+.asked {
+  margin-left: 403px;
+  margin-top: 123px;
+  font-size: 22px;
+}
+
+.asked div {
+  width: 1170px;
+  margin-top: 9px;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  height: 90px;
+  padding-top: 33px;
+  padding-left: 12px;
+  font-size: 43px;
+}
+
+.start .head3 {
+  margin-left: 573px;
+  margin-top: 123px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.email .again {
+  width: 990px;
+  height: 67px;
+  color: white;
+}
+
+.email .again2 {
+  width: 190px;
+  height: 67px;
+  color: white;
+}
+
+.ques {
+  color: rgb(186, 180, 180);
+  margin-left: 267px;
+  font-size: 23px;
+  margin-top: 93px;
+
+}
+
+.ques a {
+  text-decoration: underline;
+}
+
+.anc {
+  margin-top: 55px;
+  margin-left: 267px;
+  width: 1600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.anc .first {
+  color: rgb(186, 180, 180);
+  width: 500px;
+  font-size: 23px;
+}
+
+.anc .second {
+  color: rgb(186, 180, 180);
+  width: 500px;
+  margin-left: 2px;
+  font-size: 23px;
+}
+
+.anc .third {
+  color: rgb(186, 180, 180);
+  width: 500px;
+  margin-left: 2px;
+  font-size: 23px;
+}
+
+.anc .fourth {
+  color: rgb(186, 180, 180);
+  width: 500px;
+  margin-left: 2px;
+  font-size: 23px;
+}
+
+.last {
+  color: rgb(186, 180, 180);
+  margin-left: 243px;
+  margin-top: 55px;
+  font-size: 24px;
+}
+
+.copy {
+  margin-left: 243px;
+  color: rgb(186, 180, 180);
+  margin-top: 61px;
+  font-size: 19px;
+
+}
